@@ -1,0 +1,4 @@
+Host github.com
+Hostname github.com
+StrictHostKeyChecking no
+IdentityFile ~/.ssh/id_rsa
