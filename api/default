@@ -98,8 +98,8 @@ server {
 	index index.html index.htm;
 
 	ssl on;
-	ssl_certificate ssl-bundle.crt;
-	ssl_certificate_key cert.key;
+	ssl_certificate ssl/ssl-bundle.crt;
+	ssl_certificate_key ssl/cert.key;
 
 	ssl_session_timeout 5m;
 
